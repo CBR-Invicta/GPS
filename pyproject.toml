@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "3x1"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+vcfpy = "^0.13.3"
+pandas = "^1.2.4"
+plotly = "^4.14.3"
+seaborn = "^0.11.1"
+jupyter = "^1.0.0"
+setuptools = "^56.2.0"
+Cython = "^0.29.21"
+lightgbm = "^3.2.1"
+Boruta = "^0.3"
+BorutaShap = "^1.0.15"
+tqdm = "^4.60.0"
+tensorflow = "^2.4.1"
+gensim = "^4.0.1"
+python-dotenv = "^0.17.1"
+prince = "^0.7.1"
+MiniSom = "^2.2.9"
+pandas-profiling = {extras = ["notebook"], version = "^3.0.0"}
+black = "^21.5b1"
+xlrd = "^2.0.1"
+openpyxl = "^3.0.7"
+uvicorn = "^0.14.0"
+fastapi = "^0.65.2"
+SQLAlchemy = "^1.4.19"
+umap-learn = "^0.5.1"
+datashader = "^0.13.0"
+bokeh = "^2.3.2"
+holoviews = "^1.14.4"
+colorcet = "^2.0.6"
+scikit-image = "^0.18.1"
+hdbscan = "^0.8.27"
+psycopg2 = "^2.9.1"
+pylint = "^2.9.3"
+ipykernel = "^6.3.1"
+blackcellmagic = "^0.0.2"
+pyarrow = "^5.0.0"
+imbalanced-learn = "^0.9.0"
+pydot = "^1.4.2"
+graphviz = "^0.19.1"
+pydotplus = "^2.0.2"
+fnvhash = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+dalex = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
